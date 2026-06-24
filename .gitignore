@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+.fseventsd/
+
+# scratch / extraction artifacts
+*.dmg
+mnt/
+tmp/
+work/

@@ -1,0 +1,35 @@
+Xerox Phaser 3020 on Apple Silicon macOS
+========================================
+
+The scripts and documentation in this repository are licensed under the MIT
+License (see LICENSE) and are © 2026 Alexandru-Daniel Popescu.
+
+--------------------------------------------------------------------------
+THIRD-PARTY / PROPRIETARY COMPONENTS — NOT covered by the MIT License
+--------------------------------------------------------------------------
+
+The files under driver/ are NOT original to this project and are NOT open
+source. They are redistributed here, unmodified, for convenience and
+preservation only:
+
+  driver/rastertosec
+  driver/prefilter
+  driver/commandtosec
+  driver/SCMS/libscmssc.dylib
+  driver/SCMS/P3020sc.cts
+  driver/Xerox_Phaser_3020.ppd
+
+These are the proprietary work of:
+
+  • Xerox Corporation  — packaging and distribution of the macOS driver
+  • Samsung Electronics Co., Ltd. — the underlying print engine and the SPL
+    rasterizer (the Phaser 3020 is built on a Samsung engine)
+
+They were extracted from Xerox's official "Xerox Phaser 3020 Print Driver
+v1.06.00" for macOS. See driver/SOURCE.md for the download link, version,
+and checksums.
+
+All trademarks (Xerox, Phaser, Samsung) belong to their respective owners.
+No affiliation with or endorsement by Xerox or Samsung is implied. If you are
+a rights holder and want these files removed, please open an issue and they
+will be taken down.
